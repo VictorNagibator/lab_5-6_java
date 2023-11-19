@@ -25,7 +25,7 @@ public class RAM implements OrderComponent, Cloneable {
     public double getFrequency() { return frequency; }
     public int getCapacity() { return capacity; }
 
-    public static RAM create() { return new RAM(); }
+
     public void input() {
         String name;
         RAMType type;

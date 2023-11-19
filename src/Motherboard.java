@@ -23,7 +23,7 @@ public class Motherboard implements OrderComponent, Cloneable {
     public String getChipset() { return chipset; }
     public RAMType getSupportedRAMType() { return supportedRAMType; }
 
-    public static Motherboard create() { return new Motherboard(); }
+
     public void input() {
         String name, socket, chipset;
         RAMType supportedRAMType;

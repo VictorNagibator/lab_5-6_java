@@ -18,7 +18,7 @@ public class GPU implements OrderComponent, Cloneable {
     public double getFrequency() { return frequency; }
     public int getVRAM() { return vram; }
 
-    public static CPU create() { return new CPU(); }
+
     public void input() {
         String name;
         double frequency;

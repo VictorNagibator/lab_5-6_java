@@ -14,7 +14,7 @@ public class HDD extends DataStorage implements Cloneable {
     public String getObjectName() { return "HDD"; }
     public int getSpindleSpeed() { return spindleSpeed; }
 
-    public static HDD create() { return new HDD(); }
+
     public void input() {
         super.input();
         int spindleSpeed;

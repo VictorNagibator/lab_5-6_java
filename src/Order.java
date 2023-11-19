@@ -1,3 +1,4 @@
+import java.lang.reflect.InvocationTargetException;
 import java.util.Scanner;
 
 public class Order<T extends OrderComponent> {
@@ -26,8 +27,10 @@ public class Order<T extends OrderComponent> {
     public void setObjectOfOrder(T objectOfOrder) { this.objectOfOrder = objectOfOrder; }
     public void setStatus(StatusType status) { this.status = status; }
 
-    public void input() {
-        T objectOfOrder = (T) T.create();
+    public void input() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        //приходится использовать рефлексию, чтобы создать объект типа T
+        Class<T> clazz = (Class<T>)this.objectOfOrder.getClass();
+        T objectOfOrder = clazz.getDeclaredConstructor().newInstance();
         StatusType status;
 
         Scanner scan = new Scanner(System.in);

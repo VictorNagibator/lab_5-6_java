@@ -14,7 +14,7 @@ public class SSD extends DataStorage implements Cloneable {
     public String getObjectName() { return "SSD"; }
     public FlashMemoryType getTypeOfFlashMemory() { return typeOfFlashMemory; }
 
-    public static SSD create() { return new SSD(); }
+
     public void input() {
         FlashMemoryType typeOfFlashMemory;
 

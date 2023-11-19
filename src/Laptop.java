@@ -1,4 +1,3 @@
-import java.lang.management.ClassLoadingMXBean;
 import java.util.Scanner;
 
 public class Laptop implements OrderComponent, Cloneable {

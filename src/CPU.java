@@ -24,7 +24,6 @@ public class CPU implements OrderComponent, Cloneable {
     public int getNumOfCores() { return numOfCores; }
 
 
-    public static CPU create() { return new CPU(); }
     public void input() {
         String name, socket;
         double frequency;

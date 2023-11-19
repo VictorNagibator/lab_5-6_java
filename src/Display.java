@@ -18,7 +18,7 @@ public class Display implements OrderComponent, Cloneable {
     public int getHeight() { return height; }
     public int getRefreshRate() { return refreshRate; }
 
-    public static Display create() { return new Display(); }
+
     public void input() {
         String name;
         int width, height, refreshRate;
