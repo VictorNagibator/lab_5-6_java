@@ -37,7 +37,7 @@ public class Order<T extends OrderComponent> {
 
         System.out.println("\tВвод параметров объекта заказа");
         objectOfOrder.input();
-        System.out.print("\nВведите статус заказа (0 - в ожидании, 1 - в ремонте, 2 - отремонтирован): ");
+        System.out.print("Введите статус заказа (0 - в ожидании, 1 - в ремонте, 2 - отремонтирован): ");
         status = StatusType.intToStatusType(scan.nextInt());
 
         this.objectOfOrder = objectOfOrder;

@@ -96,6 +96,7 @@ public class Laptop implements OrderComponent, Cloneable {
         choice = scan.nextInt();
         dataStorage = DataStorage.DataStorageFactory.createDataStorage(choice);
         dataStorage.input();
+        System.out.println();
 
         tryToSetArguments(name, cpu, gpu, ram, motherboard, display, dataStorage);
     }

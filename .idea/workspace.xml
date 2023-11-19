@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8cec5c-2c50-41cc-95bd-601cc1a54563" name="Changes" comment="Added generics and deep copying mechanism">
+    <list default="true" id="1e8cec5c-2c50-41cc-95bd-601cc1a54563" name="Changes" comment="Added the demonstration in main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Motherboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RAM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SSD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700311640955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added the demonstration in main">
+      <option name="closed" value="true" />
+      <created>1700387832874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700387832874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add project files" />
     <MESSAGE value="Added generics and deep copying mechanism" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added generics and deep copying mechanism" />
+    <MESSAGE value="Added the demonstration in main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the demonstration in main" />
   </component>
 </project>
